@@ -1,0 +1,64 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\Tafka\\RiderProjects\\ICD0008-2019f\\BookWebApp\\DAL\\DAL.csproj",
+    "projectName": "DAL",
+    "projectPath": "C:\\Users\\Tafka\\RiderProjects\\ICD0008-2019f\\BookWebApp\\DAL\\DAL.csproj",
+    "outputPath": "C:\\Users\\Tafka\\RiderProjects\\ICD0008-2019f\\BookWebApp\\DAL\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netstandard2.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "projectReferences": {
+          "C:\\Users\\Tafka\\RiderProjects\\ICD0008-2019f\\BookWebApp\\Domain\\Domain.csproj": {
+            "projectPath": "C:\\Users\\Tafka\\RiderProjects\\ICD0008-2019f\\BookWebApp\\Domain\\Domain.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.1": {
+      "dependencies": {
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[3.0.1, )"
+        },
+        "Microsoft.EntityFrameworkCore.Relational": {
+          "target": "Package",
+          "version": "[3.0.1, )"
+        },
+        "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+          "target": "Package",
+          "version": "[3.0.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "NETStandard.Library": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+    }
+  }
+}

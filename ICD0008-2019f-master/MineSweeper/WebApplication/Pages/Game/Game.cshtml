@@ -1,0 +1,53 @@
+﻿@page
+@model WebApplication.Pages.Game.Game
+
+@{
+    ViewData["Title"] = "Game";
+}
+<div>
+
+    <h1 class="important-text">
+        @if (Model.GameEngine.CurrentGame.GameLost)
+        {
+            Write("You have Lost! Press Start a new game to play again!");
+        }
+        else if (Model.GameEngine.CurrentGame.GameWon)
+        {
+            Write("Congratulations you have won! If this wasn't thrilling enough for you, you should try out Disco Elysium :)");
+        }
+        else
+        {
+            Write("Play the Game!");
+        }
+    </h1>
+    <table id="board" class="board">
+        @for (var y = 0; y < Model.GameEngine.CurrentGame.Height; y++)
+        {
+            <tr>
+                @for (var x = 0; x < Model.GameEngine.CurrentGame.Width; x++)
+                {
+                    <td>
+                        <div class="cell @Html.Raw(Model.GameEngine.GetVisualClass(y, x))" id="cell" onclick="window.event.stopPropagation(); window.location = 'Game?x=@x&y=@y&gameId=@Model.GameEngine.CurrentGame.GameId&operation=open'">
+                            <div class="flagcell @Html.Raw(Model.GameEngine.GetVisualClass(y, x))" id="flagcell" onclick="window.event.stopPropagation();
+                            window.location = 'Game?x=@x&y=@y&gameId=@Model.GameEngine.CurrentGame.GameId&operation=flag'">
+                                @if (Model.GameEngine.CountNeighbours(y, x) > 0 && Model.GameEngine.Board[y, x].IsOpened && !Model.GameEngine.Board[y, x].IsBomb)
+                                {
+                                    Write(Model.GameEngine.CountNeighbours(y, x));
+                                }
+                            </div>
+                        </div>
+                    </td>
+                }
+            </tr>
+        }
+    </table>
+    <form method="post">
+        <div class="form-group save">
+            <label asp-for="GameName" class="control-label save-label">Name your savegame</label>
+            <input asp-for="GameName" class="form-control"/>
+            <span asp-validation-for="GameName" class="text-danger"></span>
+            <input type="hidden" name="gameId" value="@Model.GameEngine.CurrentGame.GameId"/>
+            <input type="submit" value="Save" class="btn btn-primary save-button"/>
+        </div>
+    </form>
+</div>

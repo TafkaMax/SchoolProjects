@@ -1,0 +1,70 @@
+﻿@page
+@model WebApplication.Pages.GameRules
+
+@{
+    ViewData["Title"] = "Game Rules";
+}
+<div>
+    <table class="table">
+        <thead>
+        <th>Block styling</th>
+        <th>Block description</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                <div class="cell">
+                    <div class="flagcell"></div>
+                </div>
+            </td>
+            <td>
+                This is a closed block, with no flag on it. <br/>
+                To place and unplace a flag, click inside the circle.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cell">
+                    <div class="flagcell flag"></div>
+                </div>
+            </td>
+            <td>
+                This is a closed block, with a flag on it.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cell wrongflag"></div>
+            </td>
+            <td>
+                This is an block that has been marked as a flag, but was actually not, you will see this if you lose the game :(
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cell open"></div>
+            </td>
+            <td>
+                This is an open block <br/>
+                Sometimes there will be a number inside the block. It shows how many bombs are within 1 square vicinity of this block.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cell mine"></div>
+            </td>
+            <td>
+                This is an exploded mine, you will see this, if you open it and lose the game:(
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cell unopenedbomb"></div>
+            </td>
+            <td>
+                This is a closed mine, you will see this, if you open a mine and lose the game :(
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>

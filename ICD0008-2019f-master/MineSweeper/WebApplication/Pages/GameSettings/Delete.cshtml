@@ -1,0 +1,46 @@
+@page
+@model WebApplication.Pages_GameSettings.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Game Settings</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GameSetting.GameName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GameSetting.GameName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GameSetting.BoardHeight)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GameSetting.BoardHeight)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GameSetting.BoardWidth)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GameSetting.BoardWidth)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GameSetting.DifficultyLevel)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GameSetting.DifficultyLevel)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="GameSetting.GameSettingId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

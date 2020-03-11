@@ -1,0 +1,57 @@
+@page
+@model WebApplication.Pages_GameSettings.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Game Settings</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.GameSetting[0].GameName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GameSetting[0].BoardHeight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GameSetting[0].BoardWidth)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GameSetting[0].DifficultyLevel)
+            </th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.GameSetting) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.GameName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BoardHeight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BoardWidth)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DifficultyLevel)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.GameSettingId">Edit</a> |
+                <a asp-page="./Delete" asp-route-id="@item.GameSettingId">Delete</a>
+            </td>
+            <td class="bold-text">
+                <a asp-page="../Game/Game" asp-route-gameSettingsId="@item.GameSettingId">Start a game with these settings</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

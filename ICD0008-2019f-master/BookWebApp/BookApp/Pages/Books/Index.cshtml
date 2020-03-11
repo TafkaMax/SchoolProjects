@@ -1,0 +1,72 @@
+@page
+@model BookApp.Pages.Books.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Book[0].Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Book[0].PublishingYear)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Book[0].AuthoredYear)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Book[0].WordCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Book[0].Summary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Book[0].Language)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Book[0].Publisher)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Book) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PublishingYear)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AuthoredYear)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WordCount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Summary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Language.LanguageId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Publisher.PublisherId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.BookId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.BookId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.BookId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.2/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_ICD0008-2019f.-201666156.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p=".gitignore" t="Include" />
+      <e p="ConsoleApp" t="IncludeRecursive">
+        <e p="ConsoleApp.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="ConsoleApp.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="ConsoleUI" t="IncludeRecursive">
+        <e p="ConsoleUI.csproj" t="IncludeRecursive" />
+        <e p="GameUI.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="ConsoleUI.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="DAL" t="IncludeRecursive">
+        <e p="DAL.csproj" t="IncludeRecursive" />
+        <e p="GameDbContext.cs" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="20191110200415_InitialGameAndSettingsMigration.Designer.cs" t="Include" />
+          <e p="20191110200415_InitialGameAndSettingsMigration.cs" t="Include" />
+          <e p="20191123153257_GameNameToGame.Designer.cs" t="Include" />
+          <e p="20191123153257_GameNameToGame.cs" t="Include" />
+          <e p="GameDbContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="DAL.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Domain" t="IncludeRecursive">
+        <e p="Domain.csproj" t="IncludeRecursive" />
+        <e p="Game.cs" t="Include" />
+        <e p="GameSetting.cs" t="Include" />
+        <e p="Mine.cs" t="Include" />
+        <e p="Move.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="GameEngine" t="IncludeRecursive">
+        <e p="BombState.cs" t="Include" />
+        <e p="Cell.cs" t="Include" />
+        <e p="GameConfigHandler.cs" t="Include" />
+        <e p="GameController.cs" t="Include" />
+        <e p="GameEngine.csproj" t="IncludeRecursive" />
+        <e p="VisibleState.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="GameEngine.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="ICD0008-2019f.sln" t="IncludeFlat" />
+      <e p="MenuSystem" t="IncludeRecursive">
+        <e p="Menu.cs" t="Include" />
+        <e p="MenuItem.cs" t="Include" />
+        <e p="MenuSystem.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="MenuSystem.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="README.md" t="Include" />
+      <e p="Solution Files" t="Include" />
+      <e p="game_db.db" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

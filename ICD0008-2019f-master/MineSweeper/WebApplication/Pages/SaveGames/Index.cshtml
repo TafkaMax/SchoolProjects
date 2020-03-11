@@ -1,0 +1,51 @@
+@page
+@model WebApplication.Pages_SaveGames.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Savegames</h1>
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Game[0].GameName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Game[0].Height)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Game[0].Width)
+        </th>
+        <th>
+
+        </th>
+        <th>
+
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.Game)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.GameName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Height)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Width)
+            </td>
+            <td>
+                <a asp-page="./Delete" asp-route-id="@item.GameId">Delete</a>
+            </td>
+            <td class="bold-text">
+                <a asp-page="../Game/Game" asp-route-gameId="@item.GameId">Continue playing</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

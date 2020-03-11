@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Tafka\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Tafka\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Tafka\RiderProjects\ICD0008-2019f" t="IncludeFlat">
+      <e p="ConsoleApp" t="IncludeRecursive">
+        <e p="ConsoleApp.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="ConsoleUI" t="IncludeRecursive">
+        <e p="ConsoleUI.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="DAL" t="IncludeRecursive">
+        <e p="DAL.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Domain" t="IncludeRecursive">
+        <e p="Domain.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="GameEngine" t="IncludeRecursive">
+        <e p="GameEngine.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="JsonTest" t="IncludeRecursive">
+        <e p="JsonTest.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="MenuSystem" t="IncludeRecursive">
+        <e p="MenuSystem.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

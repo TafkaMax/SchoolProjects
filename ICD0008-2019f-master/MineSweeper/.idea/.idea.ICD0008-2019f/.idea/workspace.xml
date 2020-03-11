@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe652a84-ac6a-4c5d-8dcc-999bc7f6577b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ICD0008-2019f/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ICD0008-2019f/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ICD0008-2019f/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ICD0008-2019f/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.0/ConsoleApp" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.0/ConsoleApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.0/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.0/ConsoleApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.0/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.0/ConsoleApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.0/ConsoleUI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.0/ConsoleUI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.0/ConsoleUI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.0/ConsoleUI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.0/GameEngine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.0/GameEngine.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.0/GameEngine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.0/GameEngine.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.0/ConsoleApp" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.0/ConsoleApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.0/ConsoleApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.0/ConsoleApp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.0/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.0/ConsoleApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.0/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.0/ConsoleApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/GameUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/GameUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/bin/Debug/netstandard2.1/ConsoleUI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/bin/Debug/netstandard2.1/ConsoleUI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/bin/Debug/netstandard2.1/ConsoleUI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/bin/Debug/netstandard2.1/ConsoleUI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/bin/Debug/netstandard2.1/GameEngine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/bin/Debug/netstandard2.1/GameEngine.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/bin/Debug/netstandard2.1/GameEngine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/bin/Debug/netstandard2.1/GameEngine.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/obj/Debug/netstandard2.1/ConsoleUI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/obj/Debug/netstandard2.1/ConsoleUI.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/obj/Debug/netstandard2.1/ConsoleUI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/obj/Debug/netstandard2.1/ConsoleUI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/obj/Debug/netstandard2.1/ConsoleUI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/obj/Debug/netstandard2.1/ConsoleUI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/obj/Debug/netstandard2.1/DAL.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/obj/Debug/netstandard2.1/DAL.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netstandard2.1/Domain.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/netstandard2.1/Domain.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/bin/Debug/netstandard2.1/GameEngine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/bin/Debug/netstandard2.1/GameEngine.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/bin/Debug/netstandard2.1/GameEngine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/bin/Debug/netstandard2.1/GameEngine.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/obj/Debug/netstandard2.1/GameEngine.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/obj/Debug/netstandard2.1/GameEngine.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/obj/Debug/netstandard2.1/GameEngine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/obj/Debug/netstandard2.1/GameEngine.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/obj/Debug/netstandard2.1/GameEngine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/obj/Debug/netstandard2.1/GameEngine.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICD0008-2019f.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MineSweeper.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuSystem/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSystem/Menu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuSystem/MenuItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSystem/MenuItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_db.db" beforeDir="false" afterPath="$PROJECT_DIR$/game_db.db" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="game_db.db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="game_db.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="game_db.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6F7983DF-5846-436F-8E9C-B779867785C7/2a/30174448/DbContextDependenciesExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL/GameDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E799ECB3-D14B-4942-A998-392DB783DB79/a4/fb9c7b40/Console.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Move.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABC3C6A-5F60-446E-85DC-B527C15E1A99/71/04a33658/ServiceProviderServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/GameSetting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6F7983DF-5846-436F-8E9C-B779867785C7/6e/3ee56ebd/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1DEB74A7-B5C6-44CA-821F-000560E09848/9a/2b2edcb3/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MenuSystem/Menu.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6F7983DF-5846-436F-8E9C-B779867785C7/f0/cb4a6d5e/DbContextOptions`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1DEB74A7-B5C6-44CA-821F-000560E09848/99/6380e2f4/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MenuSystem/MenuItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConsoleApp/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1DEB74A7-B5C6-44CA-821F-000560E09848/49/83dffdaa/Random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1DEB74A7-B5C6-44CA-821F-000560E09848/75/538bcf9a/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GameEngine/BombState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GameEngine/GameController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GameEngine/VisibleState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GameEngine/GameConfigHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6F7983DF-5846-436F-8E9C-B779867785C7/e3/26ba3517/InternalDbSet`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5A41D6B7-1898-42EC-A409-FD0B1C3E3DCF/09/c773e299/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConsoleUI/GameUI.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ConsoleUI/GameUI.cs" />
+        <option value="$PROJECT_DIR$/GameEngine/GameController.cs" />
+        <option value="$PROJECT_DIR$/MenuSystem/MenuItem.cs" />
+        <option value="$PROJECT_DIR$/MenuSystem/Menu.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApp/Program.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea/.idea.ICD0008-2019f/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1U4mSBHlV3W86sivzE2AKAURV7j" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MineSweeper.sln" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.environmentSetup" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MineSweeper" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.0/ConsoleApp.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.0" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ConsoleApp/ConsoleApp.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.0" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe652a84-ac6a-4c5d-8dcc-999bc7f6577b" name="Default Changelist" comment="" />
+      <created>1574624238467</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574624238467</updated>
+      <workItem from="1574624239763" duration="22000" />
+      <workItem from="1575270627239" duration="151000" />
+      <workItem from="1575270820811" duration="258000" />
+      <workItem from="1575271114658" duration="5241000" />
+      <workItem from="1575277028541" duration="3229000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
